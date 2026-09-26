@@ -86,7 +86,7 @@ nav {
     width: 125%;
     height: 550px;
     object-fit: cover;
-    object-position: center;
+    object-position: 60%;
     display: block;
     margin-left: -7.5%;
 }
