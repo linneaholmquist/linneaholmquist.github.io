@@ -274,18 +274,18 @@ footer {
     .category-image {
         height: 420px;
     }
-}
 
-.hero {
-    flex-direction: column;
-    align-items: flex-start;
-}
+    .hero {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
-.hero-photo {
-    width: 100%;
-    max-width: 500px;
-}
+    .hero-photo {
+        width: 100%;
+        max-width: 500px;
+    }
 
-.hero-photo img {
-    height: 500px;
+    .hero-photo img {
+        height: 500px;
+    }
 }
