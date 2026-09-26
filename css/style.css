@@ -138,46 +138,23 @@ footer {
 
 
 /* ------------------------------
-   MOBILE
------------------------------- */
-
-@media (max-width: 700px) {
-
-    nav {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .nav-links {
-        gap: 15px;
-    }
-
-    .hero {
-        padding: 60px 8%;
-    }
-
-    h1 {
-        font-size: 60px;
-    }
-
-}
-/* ------------------------------
-   PAGE HEADINGS
+   LIFE IN PICTURES
 ------------------------------ */
 
 .page-heading {
-    padding: 100px 10% 70px;
+    padding: 110px 8% 75px;
     max-width: 900px;
 }
 
 .page-heading h1 {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .page-heading > p:last-child {
     font-size: 19px;
-    line-height: 1.6;
-    max-width: 600px;
+    line-height: 1.7;
+    max-width: 550px;
+    color: #555;
 }
 
 
@@ -186,12 +163,11 @@ footer {
 ------------------------------ */
 
 .category-grid {
-    padding: 0 6% 100px;
+    padding: 0 6% 120px;
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-
-    gap: 35px;
+    gap: 55px 30px;
 }
 
 
@@ -206,17 +182,16 @@ footer {
 
 .category-image {
     width: 100%;
-    height: 500px;
+    height: 520px;
 
     background-size: cover;
     background-position: center;
 
-    transition: transform 0.4s ease;
+    transition: transform 0.5s ease;
 }
 
-
 .category-card:hover .category-image {
-    transform: scale(0.98);
+    transform: scale(0.985);
 }
 
 
@@ -225,60 +200,60 @@ footer {
 ------------------------------ */
 
 .category-info {
-    padding: 18px 5px 30px;
+    padding: 18px 5px 0;
 }
 
 .category-info h2 {
-    font-size: 28px;
+    font-family: Georgia, serif;
+    font-size: 30px;
     font-weight: 400;
-    margin-bottom: 8px;
+    margin-bottom: 7px;
 }
 
 .category-info p {
     font-size: 14px;
-    line-height: 1.5;
-    opacity: 0.65;
+    line-height: 1.6;
+    color: #666;
 }
 
 
 /* ------------------------------
-   CATEGORY PLACEHOLDER IMAGES
+   TEMPORARY IMAGE COLORS
 ------------------------------ */
 
-/*
-   We'll replace these with your actual
-   photos later.
-*/
-
 .family-image {
-    background-color: #ddd;
+    background-color: #ddd7ce;
 }
 
 .friends-image {
-    background-color: #ccc;
+    background-color: #d4d8d2;
 }
 
 .adventures-image {
-    background-color: #bbb;
+    background-color: #d8d4d0;
 }
 
 .activities-image {
-    background-color: #aaa;
+    background-color: #d2d5d8;
 }
 
 
 /* ------------------------------
-   MOBILE CATEGORY GRID
+   MOBILE
 ------------------------------ */
 
 @media (max-width: 700px) {
 
+    .page-heading {
+        padding: 70px 8% 50px;
+    }
+
     .category-grid {
         grid-template-columns: 1fr;
+        gap: 40px;
     }
 
     .category-image {
-        height: 400px;
+        height: 420px;
     }
-
 }
