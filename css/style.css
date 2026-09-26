@@ -262,19 +262,6 @@ footer {
 
 @media (max-width: 700px) {
 
-    .page-heading {
-        padding: 70px 8% 50px;
-    }
-
-    .category-grid {
-        grid-template-columns: 1fr;
-        gap: 40px;
-    }
-
-    .category-image {
-        height: 420px;
-    }
-
     .hero {
         flex-direction: column;
         align-items: flex-start;
@@ -288,4 +275,18 @@ footer {
     .hero-photo img {
         height: 500px;
     }
+
+    .page-heading {
+        padding: 70px 8% 50px;
+    }
+
+    .category-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .category-image {
+        height: 420px;
+    }
+
 }
