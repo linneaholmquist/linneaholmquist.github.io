@@ -83,10 +83,10 @@ nav {
 }
 
 .hero-photo img {
-    width: 100%;
+    width: 150%;
     height: 550px;
     object-fit: contain;
-    object-position: 50%;
+    object-position: 60%;
     display: block;
     margin-left: -7.5%;
 }
