@@ -130,6 +130,10 @@ h1 {
     letter-spacing: 1.5px;
 }
 
+.secondary-button {
+    margin-top: 18px;
+}
+
 .button:hover {
     opacity: 0.5;
 }
