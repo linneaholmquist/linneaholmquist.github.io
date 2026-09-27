@@ -259,19 +259,19 @@ footer {
 /* Future category photos */
 
 .family-photo {
-    background-image: url("../images/family/family-cover.jpg");
+    background-image: url("../images/family/family-cover.png");
 }
 
 .friends-photo {
-    background-image: url("../images/friends/friends-cover.jpg");
+    background-image: url("../images/friends/friends-cover.JPEG");
 }
 
 .adventures-photo {
-    background-image: url("../images/adventures/adventures-cover.jpg");
+    background-image: url("../images/adventures/adventures-cover.JPEG");
 }
 
 .activities-photo {
-    background-image: url("../images/activities/activities-cover.jpg");
+    background-image: url("../images/activities/activities-cover.JPEG");
 }
 
 /* ------------------------------
