@@ -296,13 +296,13 @@ footer {
 
 .bio-photo {
     width: 40%;
-    max-width: 250px;
+    max-width: 450px;
     flex-shrink: 0;
 }
 
 .bio-photo img {
     width: 100%;
-    height: 400px;
+    height: 600px;
     object-fit: cover;
     display: block;
 }
