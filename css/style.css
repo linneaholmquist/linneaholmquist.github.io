@@ -217,10 +217,6 @@ footer {
     object-position: center 70%;
 }
 
-.category-card:hover .category-image {
-    transform: scale(0.985);
-}
-
 
 /* ------------------------------
    CATEGORY TEXT
@@ -264,24 +260,6 @@ footer {
     background-color: #d2d5d8;
 }
 
-
-/* Future category photos */
-
-.family-photo {
-    background-image: url("../images/family/family-cover.png");
-}
-
-.friends-photo {
-    background-image: url("../images/friends/friends-cover.JPEG");
-}
-
-.adventures-photo {
-    background-image: url("../images/adventures/adventures-cover.JPEG");
-}
-
-.activities-photo {
-    background-image: url("../images/activities/activities-cover.JPEG");
-}
 
 /* ------------------------------
    BIO PAGE
