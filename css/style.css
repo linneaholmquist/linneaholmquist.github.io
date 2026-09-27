@@ -308,6 +308,33 @@ footer {
     color: #444;
 }
 
+/* ------------------------------
+   GALLERY 
+------------------------------ */
+
+.photo-gallery {
+    padding: 0 8% 120px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.gallery-photo {
+    overflow: hidden;
+}
+
+.gallery-photo img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+    transition: transform .5s ease;
+}
+
+.gallery-photo:hover img {
+    transform: scale(1.02);
+}
+
 
 /* ------------------------------
    MOBILE
@@ -375,5 +402,14 @@ footer {
     .bio-text {
         max-width: 100%;
     }
+
+   .photo-gallery {
+       grid-template-columns: 1fr;
+       gap: 25px;
+   }
+
+   .gallery-photo img {
+       height: 450px;
+   }
 
 }
