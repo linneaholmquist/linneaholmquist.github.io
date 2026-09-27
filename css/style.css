@@ -258,6 +258,43 @@ footer {
 
 
 /* ------------------------------
+   BIO PAGE
+------------------------------ */
+
+.bio-main {
+    display: flex;
+    align-items: flex-start;
+    gap: 80px;
+    padding: 0 10% 120px;
+}
+
+.bio-photo {
+    width: 40%;
+    max-width: 450px;
+    flex-shrink: 0;
+}
+
+.bio-photo img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    display: block;
+}
+
+.bio-text {
+    max-width: 600px;
+    padding-top: 10px;
+}
+
+.bio-text p {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    color: #444;
+}
+
+
+/* ------------------------------
    MOBILE
 ------------------------------ */
 
@@ -303,6 +340,25 @@ footer {
 
     .category-image {
         height: 420px;
+    }
+
+   .bio-main {
+        flex-direction: column;
+        padding: 0 8% 80px;
+        gap: 50px;
+    }
+
+    .bio-photo {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .bio-photo img {
+        height: 500px;
+    }
+
+    .bio-text {
+        max-width: 100%;
     }
 
 }
