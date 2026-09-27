@@ -202,11 +202,15 @@ footer {
 .category-image {
     width: 100%;
     height: 520px;
-
-    background-size: cover;
-    background-position: center;
-
+    padding: 48px;
     transition: transform 0.5s ease;
+}
+
+.category-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .category-card:hover .category-image {
@@ -239,14 +243,6 @@ footer {
 /* ------------------------------
    TEMPORARY IMAGE COLORS
 ------------------------------ */
-
-.category-photo {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    background-color: #f8f7f4;
-}
 
 .family-image {
     background-color: #ddd7ce;
