@@ -213,6 +213,10 @@ footer {
     display: block;
 }
 
+.friends-image img {
+    object-position: center 70%;
+}
+
 .category-card:hover .category-image {
     transform: scale(0.985);
 }
