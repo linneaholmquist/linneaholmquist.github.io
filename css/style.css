@@ -37,9 +37,20 @@ nav {
 }
 
 .logo {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.logo a {
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 2px;
+}
+
+.logo span {
+    font-size: 12px;
+    letter-spacing: 3px;
 }
 
 .nav-links {
