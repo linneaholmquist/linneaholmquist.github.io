@@ -239,7 +239,6 @@ footer {
 /* ------------------------------
    TEMPORARY IMAGE COLORS
 ------------------------------ */
-
 .family-image {
     background-color: #ddd7ce;
 }
@@ -256,6 +255,24 @@ footer {
     background-color: #d2d5d8;
 }
 
+
+/* Future category photos */
+
+.family-photo {
+    background-image: url("../images/family/family-cover.jpg");
+}
+
+.friends-photo {
+    background-image: url("../images/friends/friends-cover.jpg");
+}
+
+.adventures-photo {
+    background-image: url("../images/adventures/adventures-cover.jpg");
+}
+
+.activities-photo {
+    background-image: url("../images/activities/activities-cover.jpg");
+}
 
 /* ------------------------------
    BIO PAGE
