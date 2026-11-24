@@ -416,5 +416,43 @@ footer {
    .gallery-photo img {
        height: 450px;
    }
-
 }
+
+/* PHOTO CAPTION OVERLAYS */
+
+.gallery-photo {
+    position: relative;
+}
+
+.gallery-photo.has-caption {
+    margin-bottom: 15px;
+}
+
+.photo-caption {
+    position: absolute;
+    bottom: -15px;
+    left: 15px;
+    background-color: #f8f7f4;
+    padding: 13px 20px;
+    min-width: 160px;
+    max-width: 85%;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+    z-index: 2;
+}
+
+.photo-caption strong {
+    display: block;
+    font-family: Georgia, serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #222;
+    margin-bottom: 4px;
+}
+
+.photo-caption span {
+    display: block;
+    font-size: 11px;
+    line-height: 1.5;
+    color: #666;
+}
+
