@@ -1,17 +1,110 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Family | Linnea Holmquist</title>
 
     <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        /* FAMILY PAGE HEADING */
+
+        .family-heading {
+            padding: 100px 8% 55px;
+        }
+
+        .family-heading h1 {
+            margin-bottom: 18px;
+        }
+
+        .family-heading .family-intro {
+            font-size: 18px;
+            line-height: 1.7;
+            max-width: 520px;
+            color: #555;
+        }
+
+        /* PHOTO GALLERY */
+
+        .family-gallery {
+            padding: 20px 8% 120px;
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            align-items: start;
+            gap: 45px 30px;
+        }
+
+        .family-item {
+            margin: 0;
+            min-width: 0;
+        }
+
+        .family-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* WIDE PHOTOS */
+
+        .family-item.wide {
+            grid-column: span 2;
+        }
+
+        .family-item.wide img {
+            max-height: 680px;
+            object-fit: cover;
+        }
+
+        /* CAPTIONS */
+
+        .family-item figcaption {
+            padding: 13px 2px 0;
+        }
+
+        .family-item figcaption strong {
+            display: block;
+            font-family: Georgia, serif;
+            font-size: 19px;
+            font-weight: 400;
+            margin-bottom: 5px;
+        }
+
+        .family-item figcaption span {
+            font-size: 13px;
+            line-height: 1.6;
+            color: #777;
+        }
+
+        /* MOBILE */
+
+        @media (max-width: 700px) {
+            .family-heading {
+                padding: 70px 8% 40px;
+            }
+
+            .family-gallery {
+                grid-template-columns: 1fr;
+                padding: 10px 8% 80px;
+                gap: 35px;
+            }
+
+            .family-item.wide {
+                grid-column: span 1;
+            }
+
+            .family-item.wide img {
+                max-height: none;
+            }
+        }
+    </style>
 </head>
 
 <body>
 
+    <!-- NAVIGATION -->
     <header>
         <nav>
             <div class="logo">
@@ -21,38 +114,126 @@
 
             <div class="nav-links">
                 <a href="index.html">HOME</a>
-                <a href="life.html">LIFE IN PICTURES</a>
+
+                <div class="nav-dropdown">
+                    <a href="life.html">LIFE IN PICTURES</a>
+
+                    <div class="dropdown-menu">
+                        <a href="family.html">Family</a>
+                        <a href="friends.html">Friends</a>
+                        <a href="adventures.html">Adventures</a>
+                        <a href="activities.html">Passions & Activities</a>
+                    </div>
+                </div>
+
                 <a href="bio.html">BIO</a>
             </div>
         </nav>
     </header>
 
 
+    <!-- PAGE INTRODUCTION -->
     <main>
-
-        <section class="gallery-heading">
-
+        <section class="family-heading">
             <p class="eyebrow">LIFE IN PICTURES</p>
 
             <h1>Family</h1>
 
-            <p>
-                The people who have shaped me and been there
-                through every chapter.
+            <p class="family-intro">
+                The people who make every place feel like home.
             </p>
-
         </section>
 
 
-        <section class="photo-gallery">
+        <!-- FAMILY PHOTO GALLERY -->
+        <section class="family-gallery">
 
-            <!-- OUR PHOTOS WILL GO HERE -->
+            <figure class="family-item">
+                <img
+                    src="images/family/familymomdadhoco.JPEG"
+                    alt="A photo with my parents">
+                <figcaption>
+                    <strong>With My Parents</strong>
+                    <span>A night out with my parents.</span>
+                </figcaption>
+            </figure>
+
+
+            <figure class="family-item">
+                <img
+                    src="images/family/family-bro.JPEG"
+                    alt="A photo with my younger brother at the lake">
+            </figure>
+
+
+            <figure class="family-item wide">
+                <img
+                    src="images/family/family-allbooth.JPEG"
+                    alt="A large family photo together at an outdoor pavilion">
+            </figure>
+
+
+            <figure class="family-item">
+                <img
+                    src="images/family/family-rylee.JPEG"
+                    alt="A fun moment with a younger family member at the lake">
+            </figure>
+
+
+            <figure class="family-item">
+                <img
+                    src="images/family/family-siblings.JPEG"
+                    alt="A candid moment with my siblings">
+            </figure>
+
+
+            <figure class="family-item">
+                <img
+                    src="images/family/family-gandg.JPEG"
+                    alt="A family photo by the lake at sunset">
+                <figcaption>
+                    <strong>Summer Evenings</strong>
+                    <span>One of my favorite summer family memories.</span>
+                </figcaption>
+            </figure>
+
+
+            <figure class="family-item">
+                <img
+                    src="images/family/family-selfie.JPEG"
+                    alt="A family selfie while traveling">
+            </figure>
+
+
+            <figure class="family-item">
+                <img
+                    src="images/family/family-gorge.JPEG"
+                    alt="A summer concert at the Gorge with family">
+                <figcaption>
+                    <strong>The Gorge</strong>
+                    <span>A summer night at the Gorge with family.</span>
+                </figcaption>
+            </figure>
+
+
+            <figure class="family-item">
+                <img
+                    src="images/family/family-cali.JPEG"
+                    alt="Family photo at the Santa Cruz Beach Boardwalk">
+            </figure>
+
+
+            <figure class="family-item">
+                <img
+                    src="images/family/family-allholmquist.JPEG"
+                    alt="A large family gathering">
+            </figure>
 
         </section>
-
     </main>
 
 
+    <!-- FOOTER -->
     <footer>
         <p>© 2026 Linnea Holmquist</p>
     </footer>
